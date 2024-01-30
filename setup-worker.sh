@@ -12,3 +12,8 @@ chmod 0600 ~/.ssh/authorized_keys
 ####################################################################################
 
 # Setup HDFS/Spark worker here
+
+
+# groupadd hadoop
+# adduser --ingroup hadoop hdfs
+# chown -R hdfs:hadoop $HADOOP_HOME

@@ -14,5 +14,10 @@ ssh-copy-id -i ~/.ssh/id_rsa -o 'IdentityFile ~/.ssh/shared_rsa' -o StrictHostKe
 ####################################################################################
 
 # Start HDFS/Spark main here
-
+# $HADOOP_HOME/bin/hdfs --daemon start namenode
+# $HADOOP_HOME/bin/hdfs --daemon start datanode
+# hdfs datanode
+# hdfs namenode
+$HADOOP_HOME/sbin/start-dfs.sh
 bash
+
