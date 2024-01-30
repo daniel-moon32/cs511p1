@@ -7,6 +7,7 @@ FROM cs511p1-common
 ####################################################################################
 
 EXPOSE 9000
+EXPOSE 7077
 ENV JAVA_HOME=/usr/local/openjdk-8/jre
 RUN mkdir /opt/hdfs
 RUN mkdir /opt/hdfs/namenode
